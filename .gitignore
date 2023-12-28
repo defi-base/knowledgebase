@@ -7,7 +7,9 @@ node_modules
 #
 # Lets keep the build folder for now in here
 #
-# /build
+/build
+build
+build/
 
 
 # Generated files
