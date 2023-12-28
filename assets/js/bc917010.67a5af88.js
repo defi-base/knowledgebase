@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdefi_knowledgebase=self.webpackChunkdefi_knowledgebase||[]).push([[904],{2187:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/knowledgebase/blog/tags/docusaurus","allTagsPath":"/knowledgebase/blog/tags","count":1,"unlisted":false}')}}]);
