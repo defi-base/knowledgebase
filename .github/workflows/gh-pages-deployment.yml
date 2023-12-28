@@ -39,6 +39,10 @@ jobs:
         with:
           node-version: 18.x
           cache: yarn
+      - name: Prepare for build
+        run: |
+          cp .gitignore .gitignore.bak
+          sed '/\/build/d' .gitignore.bak > .gitignore
       - name: Install dependencies
         run: yarn install --frozen-lockfile --non-interactive
       - name: Build
@@ -48,11 +52,18 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+      - name: Cleanup after build
+        run: mv .gitignore.bak .gitignore
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
           path: build
+
+      # 
+      # Dropped in favor of commonly used peaceiris gh pages action
+      #
+      #
       # - name: Deploy to GitHub Pages
       #   id: deployment
       #   uses: actions/deploy-pages@v2
