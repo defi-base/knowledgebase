@@ -4,7 +4,11 @@ node_modules/
 node_modules
 
 # Production
-/build
+#
+# Lets keep the build folder for now in here
+#
+# /build
+
 
 # Generated files
 .docusaurus
