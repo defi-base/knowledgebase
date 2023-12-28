@@ -10,32 +10,30 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Intro',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Welcome to DeFi Base Knowledgebase. This is a place where we can discuss our current and future work & propose ideas.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Current Progress',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        In the current progress section, also called 'docs', we shall explain the thought process, and document
+        our code.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Thoughts & Discussions',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Thoughts & Discussions is a dedicated place to dicuss ideas. It is post-oriented, meaning only posts are allowed.
       </>
     ),
   },

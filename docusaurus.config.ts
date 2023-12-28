@@ -6,8 +6,8 @@ const organizationName = 'defi-base';
 const projectName = 'knowledgebase';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'DeFi Base',
+  tagline: 'DeFi Knowledge & Research',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
@@ -60,7 +60,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'DeFi Knowledgebase',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -70,11 +70,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Current Progress',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Thoughts & Discussions', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/defi-base',
           label: 'GitHub',
           position: 'right',
         },
