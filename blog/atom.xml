@@ -2,11 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://defi-base.github.io/knowledgebase/blog</id>
     <title>DeFi Base Blog</title>
-    <updated>2019-05-28T00:00:00.000Z</updated>
+    <updated>2023-12-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://defi-base.github.io/knowledgebase/blog"/>
     <subtitle>DeFi Base Blog</subtitle>
     <icon>https://defi-base.github.io/knowledgebase/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Introduction to Knowledgebase]]></title>
+        <id>https://defi-base.github.io/knowledgebase/blog/introduction</id>
+        <link href="https://defi-base.github.io/knowledgebase/blog/introduction"/>
+        <updated>2023-12-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The explanation of the idea behind the Knowledgebase, how things will work around here etc. This is a good starting point for everyone.]]></summary>
+        <content type="html"><![CDATA[<p>The explanation of the <strong>idea</strong> behind the Knowledgebase, how things will work around here etc. This is a <strong>good starting point</strong> for everyone.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-knowledgebase">What is Knowledgebase?<a href="https://defi-base.github.io/knowledgebase/blog/introduction#what-is-knowledgebase" class="hash-link" aria-label="Direct link to What is Knowledgebase?" title="Direct link to What is Knowledgebase?">​</a></h2>
+<p>Knowledgebase is essentially an <strong>aggregator of research &amp; development</strong> done by our small community. We will share our ideas &amp; progress here. The reason for it's existence is to allow other people to <strong>quickly pickup</strong> on our current work and contribute more easily. It is our own little crypto world.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-does-it-work">How does it work?<a href="https://defi-base.github.io/knowledgebase/blog/introduction#how-does-it-work" class="hash-link" aria-label="Direct link to How does it work?" title="Direct link to How does it work?">​</a></h2>
+<p>We have <strong>2 main sections</strong> in the Knowledgebase:</p>
+<ul>
+<li>Current Progress</li>
+<li>Thoughts &amp; Discussions</li>
+</ul>
+<hr>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="current-progress">Current Progress<a href="https://defi-base.github.io/knowledgebase/blog/introduction#current-progress" class="hash-link" aria-label="Direct link to Current Progress" title="Direct link to Current Progress">​</a></h3>
+<p>Current progress will elaborate on the <strong>current state</strong> of our work. It will be a <strong>collection of articles</strong> that will explain the <strong>current state</strong> of our work. These articles will be divided into categories, with some brief explanations, analysis and more. You will be able to find some code snippets and pseudo code there as well.</p>
+<p>Example:</p>
+<ul>
+<li>Category: <strong>Simulations</strong>
+<ul>
+<li>Article: <strong>Simulating the deployment of the token</strong></li>
+<li>Article: <strong>Simulating the buys &amp; sells</strong></li>
+<li>Article: <strong>Honeypots</strong></li>
+</ul>
+</li>
+<li>Category: <strong>Communities</strong>
+<ul>
+<li>Article: <strong>Discord and Telegram communities comparison</strong></li>
+<li>Article: <strong>Value of the Orbit model in telegram communities</strong></li>
+</ul>
+</li>
+</ul>
+<p>Some of these articles / Categories will be followed by a <strong>simple product / bot / Proof of Concept</strong> that will be free for use. Code shall remain closed source.</p>
+<hr>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="thoughts--discussions">Thoughts &amp; Discussions<a href="https://defi-base.github.io/knowledgebase/blog/introduction#thoughts--discussions" class="hash-link" aria-label="Direct link to Thoughts &amp; Discussions" title="Direct link to Thoughts &amp; Discussions">​</a></h3>
+<p>Thoughts &amp; Discussions will be a collections of <strong>articles</strong> and <strong>blog posts</strong> that will be a part of a <strong>singular line</strong> that we call <strong>"Journey"</strong>.</p>
+<p>Following the Journey, you shall be able to get a better understanding of our idea and the concept of Knowledgebase. This article is part of the Journey.</p>
+<p>Example:</p>
+<ul>
+<li><strong>Journey:</strong>
+<ul>
+<li>Article: <strong>Introduction to Knowledgebase</strong></li>
+<li>Article: <strong>Cornerstones of DeFi &amp; what keeps it afloat</strong></li>
+<li>Article: <strong>Role of community in DeFi</strong></li>
+</ul>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Luka Radisavljevic</name>
+            <uri>https://github.com/madjarx</uri>
+        </author>
+        <category label="overview" term="overview"/>
+        <category label="introduction" term="introduction"/>
+        <category label="idea" term="idea"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
         <id>https://defi-base.github.io/knowledgebase/blog/first-blog-post</id>
