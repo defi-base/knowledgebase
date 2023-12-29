@@ -16,8 +16,8 @@ Knowledgebase is essentially an **aggregator of research & development** done by
 ## How does it work?
 
 We have **2 main sections** in the Knowledgebase:
-- Current Progress
-- Thoughts & Discussions
+- [Current Progress](#current-progress)
+- [Thoughts & Discussions](#thoughts--discussions)
 
 ---
 ---
