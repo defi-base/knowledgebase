@@ -4,10 +4,90 @@
         <title>DeFi Base Blog</title>
         <link>https://defi-base.github.io/knowledgebase/blog</link>
         <description>DeFi Base Blog</description>
-        <lastBuildDate>Thu, 28 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[data-aggregation]]></title>
+            <link>https://defi-base.github.io/knowledgebase/blog/2023/12/30/data-aggregation</link>
+            <guid>https://defi-base.github.io/knowledgebase/blog/2023/12/30/data-aggregation</guid>
+            <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Areas of Interest - The Story of Alice]]></title>
+            <link>https://defi-base.github.io/knowledgebase/blog/areas-of-interest</link>
+            <guid>https://defi-base.github.io/knowledgebase/blog/areas-of-interest</guid>
+            <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[What are the areas of interest that DeFi Base would like to explore and how did we get to them? Areas of interest defined through the story.]]></description>
+            <content:encoded><![CDATA[<p>What are the <strong>areas of interest</strong> that DeFi Base would like to explore and how did we get to them? Areas of interest defined through the story.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Through examples and story, we shall define the <strong>areas of interest, key components and concepts</strong> that DeFi Base would want to explore.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-story">The Story<a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#the-story" class="hash-link" aria-label="Direct link to The Story" title="Direct link to The Story">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chapters">Chapters<a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#chapters" class="hash-link" aria-label="Direct link to Chapters" title="Direct link to Chapters">​</a></h3>
+<ul>
+<li><a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#chapter-1---the-swaps">Chapter 1 - The Swaps</a></li>
+<li><a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#chapter-2---outside-factors">Chapter 2 - Outside Factors</a></li>
+<li><a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#chapter-3---areas-of-interest">Chapter 3 - Areas of Interest</a></li>
+</ul>
+<hr>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chapter-1---the-swaps">Chapter 1 - The Swaps<a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#chapter-1---the-swaps" class="hash-link" aria-label="Direct link to Chapter 1 - The Swaps" title="Direct link to Chapter 1 - The Swaps">​</a></h3>
+<p>Meet <strong>Alice</strong>. Alice is relatively new to crypto &amp; ethereum ecosystem. She has intent to <strong>perform actions on the Ethereum network</strong>. She understands the basics of blockchain, ethereum &amp; EVM, into detail deep enough to allow her to perform basic swaps.</p>
+<p>She has intentions to <strong>buy</strong> tokens in order to achieve a certain <strong>monetary gain</strong>. Her desired place to do so is <strong>Uniswap</strong>. (note - in this case, tokens refer to ERC20 tokens)</p>
+<p>To her current understanding, at a certain time, she can <strong>swap TokenA for TokenB</strong>, at a certain <strong>exchange ratio</strong>, calculated by an algorithm that is based on the <strong>liquidity pool</strong> of the given token pair.</p>
+<p>Alice knows that other factors will influence the exchange ratio over time, such as <strong>volume</strong>, <strong>liquidity</strong>, <strong>news</strong>, <strong>market sentiment</strong> and many more. Her current goal is to achieve a certain <strong>monetary gain</strong> by swapping the tokens at a certain time, getting the best exchange ratio possible.</p>
+<p><img loading="lazy" alt="Alice" src="https://defi-base.github.io/knowledgebase/assets/images/2023-12-29-18-49-07-bad2fcc92f44a0653898563062e4ce9d.png" width="1094" height="636" class="img_ev3q"></p>
+<hr>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chapter-2---outside-factors">Chapter 2 - Outside Factors<a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#chapter-2---outside-factors" class="hash-link" aria-label="Direct link to Chapter 2 - Outside Factors" title="Direct link to Chapter 2 - Outside Factors">​</a></h3>
+<p>To her current understanding, Alice knows that the price on uniswap is automatically calculated by an <a href="https://support.uniswap.org/hc/en-us/articles/7422670207373-How-are-token-prices-determined-" target="_blank" rel="noopener noreferrer">algorithm</a>.</p>
+<p>Looking at the <a target="_blank" href="https://defi-base.github.io/knowledgebase/assets/files/2023-12-29-18-49-07-bad2fcc92f44a0653898563062e4ce9d.png">picture from Chapter 1</a>, the ratio is calculated by the following formula:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Token_A_supply * Token_B_supply = Constant</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>In which the buys and sells affect the <strong>supply of tokens</strong> in liquidity pool. <strong>Constant needs to remain the same</strong>, hence the exchange ratio between the tokens <strong>changes</strong> in order to keep the Constant the same.</p>
+<p>Deducting from this, she realizes that the change in the <strong>price of the token</strong> depends on the constant, the <strong>state of the liquidity pool - (the buys and the sells)</strong>. She realizes that information she currently has <strong>isn't sufficient</strong> for her to achieve her goal, she needs to take a step back and think about what <strong>affects the buys and sells</strong>.</p>
+<p>Alice realizes that in order to achieve her goal, she needs to have information.</p>
+<p><em>NOTE - One could argue that certain crypto markets could be deemed inefficient while others remain efficient. Here is a link to the</em> <a href="https://en.wikipedia.org/wiki/Efficient-market_hypothesis" target="_blank" rel="noopener noreferrer">Efficient-market hypothesis</a></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="alices-obsession---the-information-she-wants-to-know">Alice's obsession - the information she wants to know<a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#alices-obsession---the-information-she-wants-to-know" class="hash-link" aria-label="Direct link to Alice's obsession - the information she wants to know" title="Direct link to Alice's obsession - the information she wants to know">​</a></h4>
+<p>In order to get a better understanding on what might happen, Alice would need to obtain certain information <strong>about the token</strong> she is interested in, as well as <strong>the network</strong> itself.</p>
+<p>Alice became a bit scared realizing how much she doesn't know to the point where she became obsessed with the idea of <strong>obtaining information before she makes a decision</strong>.</p>
+<p>While thinking about it, she came to the following conclusions.</p>
+<ul>
+<li>Alice wants to know the general information about the token, that would be a good starting point. <strong>Wheres, whens, hows and whys</strong>.</li>
+<li>Alice wants to know the current state of the token at the time of noticing it, as well as previous states that the token went through. She wants to know the <strong>history</strong> of the token.</li>
+<li>She, as everyone else, hopes that one day, she will be able to go back in time. Unfortunately, she knows that it is not possible, so <strong>her best option is to guess:</strong> "What would happen if she had done such and such"</li>
+<li>Alice knows that holders, buyers and sellers stand behind the token, other people's intentions are bringing value to it. She would want to somehow get to know the <strong>people behind the token</strong>.</li>
+<li>Noticing that people are sometimes <strong>driven by the emotion instead of reason</strong>, she would want to know how could that influence her actions &amp; decisions.</li>
+</ul>
+<p>As of now, in the context of our approach, <strong>this is all that Alice wants to know</strong>. Nothing else.</p>
+<hr>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chapter-3---areas-of-interest">Chapter 3 - Areas of Interest<a href="https://defi-base.github.io/knowledgebase/blog/areas-of-interest#chapter-3---areas-of-interest" class="hash-link" aria-label="Direct link to Chapter 3 - Areas of Interest" title="Direct link to Chapter 3 - Areas of Interest">​</a></h3>
+<p>Following Alice's trail of thought, we can use the following approach.</p>
+<p>Defining what building blocks make Alice's line of thinking, we can start off small, with the <strong>Swap Entity</strong>.</p>
+<p>The <strong>Swap Entity</strong> itself could be broken down into the following components:</p>
+<ul>
+<li><strong>Tokens</strong> - red &amp; green - The tokens that are being swapped, we could explore the swaps with multiple tokens (3 etc.)</li>
+<li><strong>Liquidity Pool</strong> - blue - The liquidity pool that is being used for the swap</li>
+<li><strong>Swap Action</strong> - organge - The action of swapping the tokens itself</li>
+</ul>
+<p>The <strong>Swap Entity</strong> as shown in the image below.</p>
+<p><img loading="lazy" alt="Areas of Interest" src="https://defi-base.github.io/knowledgebase/assets/images/2023-12-30-00-43-47-534a7f5ac9cd0ca2183fe23eea224eda.png" width="2220" height="1272" class="img_ev3q"></p>
+<p>We can say that the <strong>Swap Entity</strong> (Tokens, LPs and Swap Action) is the <strong>core</strong> of our journey and our <strong>primary area of interest</strong> as of now. Information originating from the sources of influence on the Swap Entity is also of interest. Being able to obtain such information would be of great help to Alice. That would be the <strong>secondary area of interest - information gathering</strong>. Taking a step away, and looking at the whole ethereum &amp; defi ecosystem, we can say that the Swap Entity and it's components should be analized in bigger sample groups. That would define our <strong>tertiary area of interest</strong> -&gt; Big Data collected over time.</p>
+<p>Like every human being, Alice is also prone to curiosity. Being able to obtain &amp; analyze such information and then reproduce it in a controlled environment, and being able to, with certain degree of certainty, predict the outcome, would be of great help to Alice. That would be the <strong>quaternary area of interest - Simulations</strong>.</p>
+<p>To summarize:</p>
+<ul>
+<li>Swap Entity - swap action, tokens, liquidity pool etc.</li>
+<li>Information Gathering - information about the network, people, communities etc.</li>
+<li>Big Data - Monitoring the network, capturing tokens, indexing them etc.</li>
+<li>Simulations - Allows us to reproduce the outcomes of the mentioned 3 areas of interest.</li>
+</ul>
+<p>More on these topics would be elaborated in the future articles.</p>]]></content:encoded>
+            <category>interest</category>
+            <category>idea</category>
+            <category>journey</category>
+            <category>story</category>
+        </item>
         <item>
             <title><![CDATA[Introduction to Knowledgebase]]></title>
             <link>https://defi-base.github.io/knowledgebase/blog/introduction</link>

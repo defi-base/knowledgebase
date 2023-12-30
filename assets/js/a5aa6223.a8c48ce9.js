@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdefi_knowledgebase=self.webpackChunkdefi_knowledgebase||[]).push([[2282],{568:e=>{e.exports=JSON.parse('{"label":"story","permalink":"/knowledgebase/blog/tags/story","allTagsPath":"/knowledgebase/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdefi_knowledgebase=self.webpackChunkdefi_knowledgebase||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Journey \u2193","items":[{"title":"Introduction to Knowledgebase","permalink":"/knowledgebase/blog/introduction","unlisted":false},{"title":"First Blog Post","permalink":"/knowledgebase/blog/first-blog-post","unlisted":false}]}')}}]);
