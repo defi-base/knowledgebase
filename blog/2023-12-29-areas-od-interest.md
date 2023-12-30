@@ -83,7 +83,7 @@ Defining what building blocks make Alice's line of thinking, we can start off sm
 The **Swap Entity** itself could be broken down into the following components:
 - **Tokens** - red & green - The tokens that are being swapped, we could explore the swaps with multiple tokens (3 etc.)
 - **Liquidity Pool** - blue - The liquidity pool that is being used for the swap
-- **Swap Action** - organge - The action of swapping the tokens itself
+- **Swap Action** - orange - The action of swapping the tokens itself
 
 The **Swap Entity** as shown in the image below.
 
