@@ -41,13 +41,13 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/master/`,
         },
         blog: {
           showReadingTime: true,
           blogSidebarTitle: 'Journey ↓',
           blogSidebarCount: 'ALL',
-          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/master/`,
         },
         theme: {
           customCss: './src/css/custom.css',
