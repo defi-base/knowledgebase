@@ -69,7 +69,7 @@
 <ul>
 <li><strong>Tokens</strong> - red &amp; green - The tokens that are being swapped, we could explore the swaps with multiple tokens (3 etc.)</li>
 <li><strong>Liquidity Pool</strong> - blue - The liquidity pool that is being used for the swap</li>
-<li><strong>Swap Action</strong> - organge - The action of swapping the tokens itself</li>
+<li><strong>Swap Action</strong> - orange - The action of swapping the tokens itself</li>
 </ul>
 <p>The <strong>Swap Entity</strong> as shown in the image below.</p>
 <p><img loading="lazy" alt="Areas of Interest" src="https://defi-base.github.io/knowledgebase/assets/images/2023-12-30-00-43-47-534a7f5ac9cd0ca2183fe23eea224eda.png" width="2220" height="1272" class="img_ev3q"></p>
