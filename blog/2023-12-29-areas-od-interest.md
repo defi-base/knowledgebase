@@ -99,4 +99,4 @@ To summarize:
 - Big Data - Monitoring the network, capturing tokens, indexing them etc.
 - Simulations - Allows us to reproduce the outcomes of the mentioned 3 areas of interest.
 
-More on these topics would be elaborated in the future articles.
+More on these topics will be elaborated in the future articles.
